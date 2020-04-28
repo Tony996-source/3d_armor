@@ -5,5 +5,3 @@ pova?
 fire?
 bakedclay?
 intllib?
-technic?
-mobs_redo?

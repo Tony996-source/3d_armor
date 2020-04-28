@@ -54,7 +54,6 @@ armor = {
 		mithril = "moreores:mithril_ingot",
         leather = "mobs:leather",
         chain = "default:chainlink_steel",
-        carbonfiber = "technic:carbon_plate",
 	},
 	fire_nodes = {
 		{"default:lava_source",     5, 8},

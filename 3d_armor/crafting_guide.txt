@@ -20,7 +20,6 @@ Helmets:
 [3d_armor:helmet_mithril] X = [moreores:mithril_ingot] *
 [3d_armor:helmet_leather] X = [mobs:leather]
 [3d_armor:helmet_chain] X = [default:chainlink_steel]
-[3d_armor:helmet_carbonfiber] X = [technic:carbon_plate]
 
 Chestplates:
 
@@ -41,7 +40,6 @@ Chestplates:
 [3d_armor:chestplate_mithril] X = [moreores:mithril_ingot] *
 [3d_armor:chestplate_leather] X = [mobs:leather]
 [3d_armor:chestplate_chain] X = [default:chainlink_steel]
-[3d_armor:chestplate_carbonfiber] X = [technic:carbon_plate]
 
 Leggings:
 
@@ -62,7 +60,6 @@ Leggings:
 [3d_armor:leggings_mithril] X = [moreores:mithril_ingot] *
 [3d_armor:leggings_leather] X = [mobs:leather]
 [3d_armor:leggings_chain] X = [default:chainlink_steel]
-[3d_armor:leggings_carbonfiber] X = [technic:carbon_plate]
 
 Boots:
 
@@ -81,7 +78,6 @@ Boots:
 [3d_armor:boots_mithril] X = [moreores:mithril_ingot] *
 [3d_armor:boots_leather] X = [mobs:leather]
 [3d_armor:boots_chain] X = [default:chainlink_steel]
-[3d_armor:boots_carbonfiber] X = [technic:carbon_plate]
 
  * Requires moreores mod by Calinou - https://forum.minetest.net/viewtopic.php?id=549
 ** Requires ethereal mod by Chinchow & TenPlus1 - https://github.com/tenplus1/ethereal
