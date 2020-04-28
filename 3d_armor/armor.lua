@@ -377,6 +377,37 @@ if armor.materials.carbonfiber then
 	})
 end
 
+if armor.materials.composite then
+	armor:register_armor("3d_armor:helmet_composite", {
+		description = S("Composite Helmet"),
+		inventory_image = "3d_armor_inv_helmet_composite.png",
+		groups = {armor_head=1, armor_heal=30, armor_use=25},
+		armor_groups = {fleshy=40},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+	})
+	armor:register_armor("3d_armor:chestplate_composite", {
+		description = S("Composite Chestplate"),
+		inventory_image = "3d_armor_inv_chestplate_composite.png",
+		groups = {armor_torso=1, armor_heal=30, armor_use=25},
+		armor_groups = {fleshy=40},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+	})
+	armor:register_armor("3d_armor:leggings_composite", {
+		description = S("Composite Leggings"),
+		inventory_image = "3d_armor_inv_leggings_composite.png",
+		groups = {armor_legs=1, armor_heal=30, armor_use=25},
+		armor_groups = {fleshy=40},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+	})
+	armor:register_armor("3d_armor:boots_composite", {
+		description = S("Composite Boots"),
+		inventory_image = "3d_armor_inv_boots_composite.png",
+		groups = {armor_feet=1, armor_heal=30, armor_use=25},
+		armor_groups = {fleshy=40},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+	})
+end
+
 for k, v in pairs(armor.materials) do
 	minetest.register_craft({
 		output = "3d_armor:helmet_"..k,

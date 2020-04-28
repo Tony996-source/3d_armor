@@ -181,6 +181,40 @@ if armor.materials.gold then
 	})
 end
 
+if armor.materials.carbonfiber then
+	armor:register_armor("shields:shield_carbonfiber", {
+		description = S("Carbon Fiber Shield"),
+		inventory_image = "shields_inv_shield_carbonfiber.png",
+		groups = {armor_shield=1, armor_heal=20, armor_use=50},
+		armor_groups = {fleshy=30},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+		reciprocate_damage = true,
+		on_damage = function(player, index, stack)
+			play_sound_effect(player, "default_glass_footstep")
+		end,
+		on_destroy = function(player, index, stack)
+			play_sound_effect(player, "default_break_glass")
+		end,
+	})
+end
+
+if armor.materials.carbonfiber then
+	armor:register_armor("shields:shield_composite", {
+		description = S("Composite Shield"),
+		inventory_image = "shields_inv_shield_composite.png",
+		groups = {armor_shield=1, armor_heal=40, armor_use=25},
+		armor_groups = {fleshy=40},
+		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
+		reciprocate_damage = true,
+		on_damage = function(player, index, stack)
+			play_sound_effect(player, "default_glass_footstep")
+		end,
+		on_destroy = function(player, index, stack)
+			play_sound_effect(player, "default_break_glass")
+		end,
+	})
+end
+
 if armor.materials.mithril then
 	armor:register_armor("shields:shield_mithril", {
 		description = S("Mithril Shield"),
