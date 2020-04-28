@@ -16,6 +16,7 @@ ARMOR_MATERIALS = {
 	mithril = "moreores:mithril_ingot",
 	leather = "mobs:leather",
 	chain = "default:chainlink_steel",
+	carbonfiber = "technic:carbon_plate",
 }
 
 -- Enable fire protection (defaults true if using ethereal mod)
