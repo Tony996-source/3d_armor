@@ -5,3 +5,4 @@ pova?
 fire?
 bakedclay?
 intllib?
+technic?

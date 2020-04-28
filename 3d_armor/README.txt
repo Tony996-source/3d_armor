@@ -31,6 +31,7 @@ armor_material_gold = true
 armor_material_mithril = true
 armor_material_leather = true
 armor_material_chain = true
+armor_material_carbonfiber = true
 
 -- Increase this if you get initialization glitches when a player first joins.
 armor_init_delay = 2
