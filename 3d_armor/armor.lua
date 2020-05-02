@@ -350,29 +350,29 @@ if armor.materials.carbonfiber then
 	armor:register_armor("3d_armor:helmet_carbonfiber", {
 		description = S("Carbon Fiber Helmet"),
 		inventory_image = "3d_armor_inv_helmet_carbonfiber.png",
-		groups = {armor_head=1, armor_heal=20, armor_use=50, physics_speed=-0.06, physics_gravity=0.06},
-		armor_groups = {fleshy=30},
+		groups = {armor_head=1, armor_heal=15, armor_use=75, physics_speed=0.5, physics_gravity=0.5},
+		armor_groups = {fleshy=25},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:chestplate_carbonfiber", {
 		description = S("Carbon Fiber Chestplate"),
 		inventory_image = "3d_armor_inv_chestplate_carbonfiber.png",
-		groups = {armor_torso=1, armor_heal=20, armor_use=50, physics_speed=-0.06, physics_gravity=0.06},
-		armor_groups = {fleshy=30},
+		groups = {armor_torso=1, armor_heal=15, armor_use=75, physics_speed=0.5, physics_gravity=0.5},
+		armor_groups = {fleshy=25},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:leggings_carbonfiber", {
 		description = S("Carbon Fiber Leggings"),
 		inventory_image = "3d_armor_inv_leggings_carbonfiber.png",
-		groups = {armor_legs=1, armor_heal=20, armor_use=50, physics_speed=-0.06, physics_gravity=0.06},
-		armor_groups = {fleshy=30},
+		groups = {armor_legs=1, armor_heal=15, armor_use=75, physics_speed=0.5, physics_gravity=0.5},
+		armor_groups = {fleshy=25},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:boots_carbonfiber", {
 		description = S("Carbon Fiber Boots"),
 		inventory_image = "3d_armor_inv_boots_carbonfiber.png",
-		groups = {armor_feet=1, armor_heal=20, armor_use=50, physics_speed=-0.06, physics_gravity=0.06},
-		armor_groups = {fleshy=30},
+		groups = {armor_feet=1, armor_heal=15, armor_use=75, physics_speed=0.5, physics_gravity=0.5},
+		armor_groups = {fleshy=25},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 end
@@ -381,29 +381,29 @@ if armor.materials.composite then
 	armor:register_armor("3d_armor:helmet_composite", {
 		description = S("Composite Helmet"),
 		inventory_image = "3d_armor_inv_helmet_composite.png",
-		groups = {armor_head=1, armor_heal=30, armor_use=25},
-		armor_groups = {fleshy=40},
+		groups = {armor_head=1, armor_heal=17, armor_use=50},
+		armor_groups = {fleshy=30},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:chestplate_composite", {
 		description = S("Composite Chestplate"),
 		inventory_image = "3d_armor_inv_chestplate_composite.png",
-		groups = {armor_torso=1, armor_heal=30, armor_use=25},
-		armor_groups = {fleshy=40},
+		groups = {armor_torso=1, armor_heal=17, armor_use=50},
+		armor_groups = {fleshy=30},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:leggings_composite", {
 		description = S("Composite Leggings"),
 		inventory_image = "3d_armor_inv_leggings_composite.png",
-		groups = {armor_legs=1, armor_heal=30, armor_use=25},
-		armor_groups = {fleshy=40},
+		groups = {armor_legs=1, armor_heal=17, armor_use=50},
+		armor_groups = {fleshy=30},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 	armor:register_armor("3d_armor:boots_composite", {
 		description = S("Composite Boots"),
 		inventory_image = "3d_armor_inv_boots_composite.png",
-		groups = {armor_feet=1, armor_heal=30, armor_use=25},
-		armor_groups = {fleshy=40},
+		groups = {armor_feet=1, armor_heal=17, armor_use=50},
+		armor_groups = {fleshy=30},
 		damage_groups = {cracky=2, snappy=1, choppy=1, level=3},
 	})
 end
